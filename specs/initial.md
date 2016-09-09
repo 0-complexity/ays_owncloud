@@ -6,7 +6,7 @@ Each OwnCloud will be hosted in its own VDC. The OwnCloud will be hosted by 1 vi
 
 ## Input parameters that customers will need to pass when buying an OwnCloud system
 
-- domain
+- domain (optional)
 - ItsYou.Online organisation of people allowed to login on the OwnCloud instance
 - ItsYou.Online organisation of people allowed to administer the OwnCloud instance
 
