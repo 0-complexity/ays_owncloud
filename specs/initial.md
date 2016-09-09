@@ -36,6 +36,7 @@ Runs the database supporting the OwnCloud
 
 ## Dynamic storage capacity
 The cockpit will monitor the amount of free diskpace in the /data mount every hour. If a running OwnCloud runs under 100GB free diskspace, the capacity will be upgraded by adding a disk to the vm and also to the btrfs filesystem in the vm. This action is completely automatic, and the virtual machine should not be brought down for this action.
+Using the cockpit API, the exact amount of storage in the S3 container can be read.
 
 ## Cockpit API results after deploying blueprint
 - Technical webdav username, password, ... necessary for the OVF import procedure.
