@@ -1,0 +1,32 @@
+#body-login #header{
+	padding-top: 0;
+}
+#body-login {
+	background: #fff;
+}
+#body-login .v-align{
+	padding-top: 100px;
+}
+#body-login form input[type="checkbox"]+label, #body-login p.info,
+ #body-login p.info a, a{
+	color: #4AA24D;
+}
+#body-login #remember_login:hover+label, #body-login #remember_login:focus+label,
+ #body-login p.info a:hover{
+	color: #4AA24D !important;
+	opacity: .7;
+}
+.searchbox input[type="search"]:focus, .searchbox input[type="search"]:active,
+.searchbox input[type="search"]:valid{
+	background-color: transparent;
+	border: 1px solid #ddd;
+}
+#emptycontent, .emptycontent, #no_more_activities, div.crumb span{
+	color: #345E79;
+}
+.breadcrumb img, #breadcrumbs img{
+	content:url('../img/places/home.svg');
+}
+#gallery-button img{
+	content: url('../img/actions/toggle-pictures.svg');
+}

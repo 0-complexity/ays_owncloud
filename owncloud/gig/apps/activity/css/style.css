@@ -1,0 +1,15 @@
+.icon-activity {
+	background-image: url('../img/activity-dark.svg');
+}
+.icon-add-color {
+	background-image: url('../img/add-color.svg');
+}
+.icon-change {
+	background-image: url('../img/change.svg');
+}
+.icon-delete-color {
+	background-image: url('../img/delete-color.svg');
+}
+.messagecontainer img{
+	content: url('../img/folder.svg');
+}

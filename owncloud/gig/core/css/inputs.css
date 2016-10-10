@@ -1,0 +1,33 @@
+button{
+	color: #345E79;
+}
+html:not(.ie8) input[type="checkbox"].checkbox--white + label:before {
+	background-image: url('../img/actions/checkbox.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox:checked + label:before {
+	background-image: url('../img/actions/checkbox-checked.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox:disabled + label:before {
+	background-image: url('../img/actions/checkbox-disabled.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox:checked:disabled + label:before {
+	background-image: url('../img/actions/checkbox-checked-disabled.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox--white:checked + label:before {
+	background-image: url('../img/actions/checkbox-checked-white.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox--white:disabled + label:before {
+	background-image: url('../img/actions/checkbox-disabled-white.svg');
+}
+
+html:not(.ie8) input[type="checkbox"].checkbox--white:checked:disabled + label:before {
+	background-image: url('../img/actions/checkbox-checked-disabled.svg');
+}
+input[type="submit"]:hover{
+	color: #4AA24D;
+}

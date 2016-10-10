@@ -1,0 +1,24 @@
+#body-user #header{
+	height: 50px;
+	background-color: #4AA24D;
+}
+#header .logo {
+	background-image: url(../img/logo-icon.png);
+}
+#header .logo-icon{
+	background-image: url(../img/logo.png);
+	width: 95px;
+	height: 40px;
+}
+.header-appname{
+	margin-left: 70px;
+}
+#navigation, #expanddiv{
+	background-color: #6bbf6e;
+}
+#navigation:after, #expanddiv:after{
+	border-bottom-color: #6bbf6e;
+}
+#settings{
+	color: #ddd;
+}

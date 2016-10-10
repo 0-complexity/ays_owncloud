@@ -1,0 +1,9 @@
+#app-navigation li > a {
+	color: #345E79;
+}
+.settings-button{
+	background-image: url('../img/actions/settings.svg');
+}
+.tabHeaders .tabHeader a, .popovermenu .menuitem{
+	color: #345E79;
+}
