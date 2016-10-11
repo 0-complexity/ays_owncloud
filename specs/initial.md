@@ -22,7 +22,7 @@ The infrastructure virtual machine will be running the following dockers:
 ## OwnCloud docker
 Runs the OwnCloud server application
 
-## MariaDB docker
+## TiDB docker
 Runs the database supporting the OwnCloud
 
 # Storage
