@@ -31,7 +31,7 @@ Runs the database supporting the OwnCloud
 - 20GB Bootdisk
 - X number of data volumes of 1TB depending on the requested capacity supporting a single btrfs filesystem mounted on /data
   - /data/cfg will contain the OwnCloud configuration
-  - /data/db will be used for the data directory of the PerconaDB docker
+  - /data/db will be used for the data directory of the TiDB docker
   - /data/storage will be used for the OwnCloud file storage
 
 ## Dynamic storage capacity
