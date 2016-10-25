@@ -5,3 +5,4 @@
   - test storage setup done correctly as described in the specs
   - test Dynamic storage capacity
   - test Cockpit API results after deploying blueprint
+  - test export a VM to the deployed owncloud for the same/different VDC
