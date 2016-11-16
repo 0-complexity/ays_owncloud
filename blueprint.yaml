@@ -1,0 +1,23 @@
+sshkey__demo:
+
+g8client__env1:
+    # url: 'du-conv-3.demo.greenitglobe.com'
+    url: 'gig.demo.greenitglobe.com'
+    login: 'username'
+    password: '******'
+    account: 'account'
+
+vdcfarm__vdcfarm1:
+
+vdc__myspace:
+    vdcfarm: vdcfarm1
+    g8client: 'env1'
+    # location: 'du-conv-3'
+    location: 'be-conv-2'
+
+blueowncloud__oc:
+    domain: 'mycloud.com'
+    vdc: 'myspace'
+    datadisks:
+        - 1000
+        - 1000
